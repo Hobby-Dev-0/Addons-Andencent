@@ -1,5 +1,5 @@
 # by uniborg...Thanks @spechide 
-# Now will be used in LEGENDBOT too....
+# Now will be used in userbotBOT too....
 """Syntax: .afk REASON"""
 import asyncio
 import datetime

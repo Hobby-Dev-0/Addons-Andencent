@@ -1,5 +1,5 @@
 # Coded by @CyberBoyAyush
-# For LEGENDBOT : https://github.com/LEGENDXOP/LEGEND-BOT
+# For userbotBOT : https://github.com/userbotXOP/userbot-BOT
 
 
 from telethon import events

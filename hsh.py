@@ -1,4 +1,4 @@
-# ported  by shivam and  LEGENDX22
+# ported  by shivam and  userbotX22
 #own Friday 
 # bekar plugin h kaam ni krta kisi ksi ka chalta h bas
 # KEEP CREDITS
@@ -31,7 +31,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- NIKAL LAWDE -",
-            text=f"You Can't Use This Bot. \nDeploy LEGEND BOTTo Get Your Own BOT Repo Link HERE",
+            text=f"You Can't Use This Bot. \nDeploy userbot BOTTo Get Your Own BOT Repo Link HERE",
         )
         await event.answer([resultm])
         return

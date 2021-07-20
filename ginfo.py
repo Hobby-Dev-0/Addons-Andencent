@@ -1,62 +1,62 @@
 """
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@LEGENDX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@userbotX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@userbotX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@userbotX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@userbotX22)))))))))))))))))))))))))))
 
 
-                  made by @LEGENDX22
-                  credits TEAMLEGEND
+                  made by @userbotX22
+                  credits TEAMuserbot
                   idea by @Alain_Champion 
- ((((((((((((((((((((((((( @LEGENDX22 AND @PROBOYX)))))))))))))))))))))))))))
+ ((((((((((((((((((((((((( @userbotX22 AND @PROBOYX)))))))))))))))))))))))))))
 """
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from userbot import CMD_HELP
 from userbot.utils import admin_cmd
-from LEGENDX import MASTER
-LEGEND = MASTER
+from userbotX import MASTER
+userbot = MASTER
 PROBOY = "@tgscanrobot"
-# MADE BY LEGENDX22 🔥🔥
+# MADE BY userbotX22 🔥🔥
 
 @borg.on(admin_cmd("ginfo ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
-    LEGENDX = event.pattern_match.group(1)
-    if "@" in LEGENDX:
+    userbotX = event.pattern_match.group(1)
+    if "@" in userbotX:
         async with borg.conversation(PROBOY) as conv:
             try:
                 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGEND}")
+                await event.edit(f"THIS USER DETAILS CHECKING BY {userbot}")
                 await conv.send_message("/start")
-                await conv.get_response() #made by LEGENDX22
-                await conv.send_message(f"{LEGENDX}")
+                await conv.get_response() #made by userbotX22
+                await conv.send_message(f"{userbotX}")
                 TEAMX = await conv.get_response()
                 await borg.send_message(event.chat_id, TEAMX.text)
-                await event.delete() #made by LEGENDX22
+                await event.delete() #made by userbotX22
             except YouBlockedUserError:
                 await event.edit("Error: @tgscanrobot unblock and retry!")
-    elif LEGENDX == "":
+    elif userbotX == "":
         OP = await event.get_reply_message()
         PRO = OP.sender.id 
         async with borg.conversation(PROBOY) as conv:
-            try: #made by LEGENDX22 🔥
-              #made by LEGENDX22 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGEND}")
+            try: #made by userbotX22 🔥
+              #made by userbotX22 
+                await event.edit(f"THIS USER DETAILS CHECKING BY {userbot}")
                 await conv.send_message("/start")
-                await conv.get_response() #made by LEGENDX22
+                await conv.get_response() #made by userbotX22
                 await conv.send_message(f"{PRO}")
                 TEAMX = await conv.get_response()
                 await borg.send_message(event.chat_id, TEAMX.text)
                 await event.delete()
-            except YouBlockedUserError: #made by LEGENDX22
+            except YouBlockedUserError: #made by userbotX22
                 await event.edit("Error: unblock @tgscanrobot and try again!")
     else:
         async with borg.conversation(PROBOY) as conv:
-            try: #made by LEGENDX22 🔥
+            try: #made by userbotX22 🔥
                 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGEND}") 
+                await event.edit(f"THIS USER DETAILS CHECKING BY {userbot}") 
                 await conv.send_message("/start")
                 await conv.get_response()
                 await conv.send_message(f"{PRO}")

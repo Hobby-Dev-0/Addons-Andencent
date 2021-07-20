@@ -1,4 +1,4 @@
-# gali plugin By LEGENDBOT
+# gali plugin By userbotBOT
 """Emoji
 Available Commands:
 .bsdk"""

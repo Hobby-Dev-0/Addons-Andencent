@@ -10,7 +10,7 @@
 
 #    the Free Software Foundation, either version 3 of the License, or
 
-#    maked by LEGENDX22 🔥🔥🔥🔥 helper shivam ⚡⚡⚡
+#    maked by userbotX22 🔥🔥🔥🔥 helper shivam ⚡⚡⚡
 
 #    This program is distributed in the hope that it will be useful,
 
@@ -46,7 +46,7 @@ from userbot.uniborgConfig import Config
 
 from var import Var
 
-LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
+LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "userbot BOY"
 
 from userbot.utils import admin_cmd as lightning_cmd
 
@@ -520,7 +520,7 @@ async def krish_op(event):
 
             await borg.send_message(
 
-                chats, "**Heya @LEGENDX22 YOU ARE MY CREATOR I APPROVED YOU SIR ❤️🥰🔥⚜️**"
+                chats, "**Heya @userbotX22 YOU ARE MY CREATOR I APPROVED YOU SIR ❤️🥰🔥⚜️**"
 
             )
 
@@ -550,7 +550,7 @@ async def krish_op(event):
 
             await borg.send_message(
 
-                chats, f"**Good To See You @LEGENDX22 How Can I Disapprove You Come In Sir**ðð"
+                chats, f"**Good To See You @userbotX22 How Can I Disapprove You Come In Sir**ðð"
 
             )
 
